@@ -1,0 +1,16 @@
+*.ide
+*.suo
+src/packages/
+src/TheGarage.AutomaticPayment.Client/bin/
+src/TheGarage.AutomaticPayment.Client/obj/
+src/TheGarage.EmailService/bin/
+src/TheGarage.Logger/bin/
+src/TheGarage.Services.AutomaticPayment/bin/
+src/TheGarage.Services.AutomaticPayment/obj/
+src/TheGarage.UnitTests/bin/
+src/TheGarage.UnitTests/obj/
+src/TheGarage.Services.AutomaticPayment/Library/
+src/TheGarage.Logger/obj/
+src/TheGarage.FirstData/obj/
+src/TheGarage.FirstData/bin/
+src/TheGarage.EmailService/obj/

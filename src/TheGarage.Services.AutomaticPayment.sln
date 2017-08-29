@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGarage.Services.AutomaticPayment", "TheGarage.Services.AutomaticPayment\TheGarage.Services.AutomaticPayment.csproj", "{76ED3885-E271-4158-99CB-002B8C0E5465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGarage.UnitTests", "TheGarage.UnitTests\TheGarage.UnitTests.csproj", "{EC1EF12D-701E-4726-97CF-06AC3C8FA4AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGarage.AutomaticPayment.Client", "TheGarage.AutomaticPayment.Client\TheGarage.AutomaticPayment.Client.csproj", "{8EBF25C3-0419-406A-8B8B-51C9FB0663AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGarage.EmailService", "TheGarage.EmailService\TheGarage.EmailService.csproj", "{5817345E-E96C-4683-9363-E3C61FC040CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGarage.Logger", "TheGarage.Logger\TheGarage.Logger.csproj", "{F87FDBEB-A315-4822-8500-B2D10BB0EB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGarage.FirstData", "TheGarage.FirstData\TheGarage.FirstData.csproj", "{93CC96AD-68A2-4158-B47F-DDD20DE03563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76ED3885-E271-4158-99CB-002B8C0E5465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ED3885-E271-4158-99CB-002B8C0E5465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ED3885-E271-4158-99CB-002B8C0E5465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ED3885-E271-4158-99CB-002B8C0E5465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1EF12D-701E-4726-97CF-06AC3C8FA4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1EF12D-701E-4726-97CF-06AC3C8FA4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1EF12D-701E-4726-97CF-06AC3C8FA4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1EF12D-701E-4726-97CF-06AC3C8FA4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBF25C3-0419-406A-8B8B-51C9FB0663AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBF25C3-0419-406A-8B8B-51C9FB0663AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBF25C3-0419-406A-8B8B-51C9FB0663AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBF25C3-0419-406A-8B8B-51C9FB0663AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5817345E-E96C-4683-9363-E3C61FC040CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5817345E-E96C-4683-9363-E3C61FC040CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5817345E-E96C-4683-9363-E3C61FC040CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5817345E-E96C-4683-9363-E3C61FC040CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87FDBEB-A315-4822-8500-B2D10BB0EB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87FDBEB-A315-4822-8500-B2D10BB0EB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87FDBEB-A315-4822-8500-B2D10BB0EB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87FDBEB-A315-4822-8500-B2D10BB0EB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CC96AD-68A2-4158-B47F-DDD20DE03563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CC96AD-68A2-4158-B47F-DDD20DE03563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CC96AD-68A2-4158-B47F-DDD20DE03563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CC96AD-68A2-4158-B47F-DDD20DE03563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

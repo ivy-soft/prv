@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76ED3885-E271-4158-99CB-002B8C0E5465}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TheGarage.Services.AutomaticPayment</RootNamespace>
+    <AssemblyName>TheGarage.Services.AutomaticPayment</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>TheGarage.Services.AutomaticPayment.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>TheGarage.Services.AutomaticPayment.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AngleSharp, Version=0.9.9.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>..\packages\AngleSharp.0.9.9\lib\net45\AngleSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Bytes2you.Validation, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a7d501dd757e0442, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bytes2you.Validation.2.0.0.0\lib\portable-win+net40+sl40+wp+Xbox40\Bytes2you.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.2.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Elmah, Version=1.2.13605.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\elmah.1.2\lib\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>Library\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>Library\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlSanitizer, Version=3.0.0.0, Culture=neutral, PublicKeyToken=61c49a1a9e79cc28, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlSanitizer.3.4.156\lib\net45\HtmlSanitizer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>Library\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>Library\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>Library\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheGarage.Common">
+      <HintPath>Library\TheGarage.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="TheGarage.Data">
+      <HintPath>Library\TheGarage.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="TheGarage.Data.Common">
+      <HintPath>Library\TheGarage.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="TheGarage.Data.Models">
+      <HintPath>Library\TheGarage.Data.Models.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Events\AutomaticPaymentBase.cs" />
+    <Compile Include="Core\Contracts\IEngine.cs" />
+    <Compile Include="EmailMessageTemplates\Models\EmailMessageTemplateModel.cs" />
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Core\Executions\InvoiceEventExecutionEngine.cs" />
+    <Compile Include="Core\Executions\Contracts\IInvoiceEventExecutionEngine.cs" />
+    <Compile Include="Facade\Contracts\IEmailMessageFacade.cs" />
+    <Compile Include="Facade\Contracts\IInvoiceEventFacade.cs" />
+    <Compile Include="Facade\EmailMessageFacade.cs" />
+    <Compile Include="Facade\InvoiceEventFacade.cs" />
+    <Compile Include="Factories\Contracts\IInvoiceModel.cs" />
+    <Compile Include="Factories\Contracts\IHandlerFactory.cs" />
+    <Compile Include="Logic\Contracts\IInvoiceAmountCalculator.cs" />
+    <Compile Include="Logic\Contracts\IInvoiceNumberGenerator.cs" />
+    <Compile Include="Logic\InvoiceAmountCalculator.cs" />
+    <Compile Include="Logic\InvoiceNumberGenerator.cs" />
+    <Compile Include="Providers\CardProvider.cs" />
+    <Compile Include="Providers\Contracts\IDataProvider.cs" />
+    <Compile Include="Providers\Contracts\IInvoiceDetailsProvider.cs" />
+    <Compile Include="Factories\Contracts\IModelsFactory.cs" />
+    <Compile Include="Providers\Contracts\ILogProvider.cs" />
+    <Compile Include="Providers\DataProvider.cs" />
+    <Compile Include="Providers\DateTimeProvider.cs" />
+    <Compile Include="Providers\DefaultDateTimeProvider.cs" />
+    <Compile Include="Core\Events\DueDateEvent.cs" />
+    <Compile Include="EmailMessageTemplates\EmailTemplateProvider.cs" />
+    <Compile Include="Factories\ModelsFactory.cs" />
+    <Compile Include="Providers\GarageProvider.cs" />
+    <Compile Include="Providers\Contracts\ICardProvider.cs" />
+    <Compile Include="Providers\Contracts\IChargeCodeProvider.cs" />
+    <Compile Include="EmailMessageTemplates\Contracts\IEmailTemplateProvider.cs" />
+    <Compile Include="Providers\Contracts\IGarageProvider.cs" />
+    <Compile Include="Providers\Contracts\IInvoiceProvider.cs" />
+    <Compile Include="EmailMessageTemplates\Factories\Contracts\IEmailMessageTemplateFactory.cs" />
+    <Compile Include="Providers\InvoiceDetailsProvider.cs" />
+    <Compile Include="Core\Events\InvoiceEvent.cs" />
+    <Compile Include="Providers\InvoiceProvider.cs" />
+    <Compile Include="Core\Events\EventHandler\Contracts\IHandler.cs" />
+    <Compile Include="Core\Events\Contracts\IPaymentHandler.cs" />
+    <Compile Include="Core\Events\Contracts\IPaymentHandlerProcesor.cs" />
+    <Compile Include="Providers\Contracts\IUserProvider.cs" />
+    <Compile Include="Core\Events\LastPaymentDayEvent.cs" />
+    <Compile Include="Core\Events\NextToDueDateWithGraceEvent.cs" />
+    <Compile Include="Core\Events\NextToDueDateWithoutGraceEvent.cs" />
+    <Compile Include="Core\Events\EventHandler\Handler.cs" />
+    <Compile Include="Providers\Models\PaymentUserModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\UserProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="TheGarage.Services.AutomaticPayment.ruleset" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheGarage.EmailService\TheGarage.EmailService.csproj">
+      <Project>{5817345E-E96C-4683-9363-E3C61FC040CA}</Project>
+      <Name>TheGarage.EmailService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheGarage.Logger\TheGarage.Logger.csproj">
+      <Project>{F87FDBEB-A315-4822-8500-B2D10BB0EB5B}</Project>
+      <Name>TheGarage.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
